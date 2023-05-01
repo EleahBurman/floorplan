@@ -3,6 +3,6 @@ const Bedroom = (props) => {
     <>
       <h3>Bedroom {props.bedNum}</h3>
     </>
-  );
+  )
 }
 export default Bedroom;

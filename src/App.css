@@ -10,3 +10,41 @@ div {
   margin: 5px;
   padding: 5px;
 }
+
+#bedroomOne {
+  background-color: #3f6f86;
+}
+
+#bedroomTwo {
+  background-color: #3f6f86;
+}
+
+#bedroomThree {
+  background-color: #3f6f86;
+}
+
+#livingroom {
+  background-color: #c4ac87;
+}
+
+#oven{
+  background-color: #ba5029;
+}
+
+#sink{
+  background-color: #8b5924;
+}
+
+#kitchen{
+  background-color: #e6aa51;
+}
+
+#halfbath{
+  background-color: #76873e;
+}
+
+#fullbath{
+  background-color: #76873e;
+}
+
+

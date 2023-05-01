@@ -3,7 +3,7 @@ const Sink = (props) => {
     <>
       <h3>Sink</h3>
     </>
-  );
+  )
 }
 
 export default Sink;
