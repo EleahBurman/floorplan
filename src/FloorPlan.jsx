@@ -6,27 +6,27 @@ import LivingRoom from "./LivingRoom";
 const FloorPlan = (props) => {
   return (
     <>
-      <div>
-        <div id="bedroomOne">
+      <div class="grid-container" id="floorplan">
+        <div class="grid-item" id="bedroomOne">
           <Bedroom bednum={1} />
         </div>
-        <div id="kitchen">
-          <Kitchen/>
-        </div>
-        <div id="fullbath">
+        <div class="grid-item" id="fullbath">
           <Bath size={'Full'}/>
         </div>
-        <div id="bedroomTwo">
-          <Bedroom bednum={2} />
-        </div>
-        <div id="livingroom">
+        <div class="grid-item"  id="livingroom">
           <LivingRoom />
         </div>
-        <div id="halfbath">
+        <div class="grid-item"  id="kitchen">
+          <Kitchen/>
+        </div>
+        <div class="grid-item"  id="halfbath">
           <Bath size={'Half'}/>
         </div>
-        <div id="bedroomThree">
+        <div class="grid-item"  id="bedroomThree">
           <Bedroom bednum={3} />
+        </div>
+        <div class="grid-item"  id="bedroomTwo">
+          <Bedroom bednum={2} />
         </div>
       </div>
     </>

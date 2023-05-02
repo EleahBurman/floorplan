@@ -11,40 +11,130 @@ div {
   padding: 5px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-rows: 0.5;
+  gap: 0;
+}
+
 #bedroomOne {
   background-color: #3f6f86;
+  width: 200px;
+  height: 200px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  row-gap: 0;
+  grid-template-rows: 0.5;
+  gap: 0;
 }
 
 #bedroomTwo {
   background-color: #3f6f86;
+  width: 200px;
+  height: 200px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  grid-template-rows: 0.5;
+  gap: 0;
 }
 
 #bedroomThree {
   background-color: #3f6f86;
+  width: 200px;
+  height: 200px;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  grid-template-rows: 0.5;
+  gap: 0;
 }
 
 #livingroom {
   background-color: #c4ac87;
+  width: 200px;
+  height: 300px;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-template-rows: 0.5;
+  gap: 0;
 }
 
 #oven{
   background-color: #ba5029;
+  width: 50px;
+  height: 20px;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-template-rows: 0.5;
+  gap: 0;
 }
 
+.floatleft{
+  float: left;
+  margin-bottom: 20px;
+}
+
+.floatright{
+  float: right;
+  margin-bottom: 20%;
+}
 #sink{
   background-color: #8b5924;
+  width: 50px;
+  height: 20px;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-template-rows: 0.5;
+  gap: 0;
+  float: right;
 }
 
 #kitchen{
   background-color: #e6aa51;
+  width: 100px;
+  height: 300px;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-template-rows: 0.5;
+  gap: 0;
 }
 
 #halfbath{
   background-color: #76873e;
+  height: 200px;
+  width: 100px;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  grid-template-rows: 0.5;
+  gap: 0;
 }
 
 #fullbath{
   background-color: #76873e;
+  width: 200px;
+  height: 100px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  row-gap: 0;
+  grid-template-rows: 0.5;
+  gap: 0;
 }
 
 

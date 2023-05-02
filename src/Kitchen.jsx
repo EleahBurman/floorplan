@@ -6,11 +6,15 @@ const Kitchen = (props) => {
     <>
       <div>
         <h3>Kitchen</h3>
-          <div id="oven">
-            < Oven />
+          <div class="floatleft">
+            <div id="oven">
+              < Oven />
+            </div>
           </div>
-          <div  id="sink">
-            < Sink />
+          <div class="floatriht">
+            <div  id="sink">
+              < Sink />
+            </div>
           </div>
       </div>
     </>
