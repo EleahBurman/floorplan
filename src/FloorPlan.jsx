@@ -3,29 +3,29 @@ import Kitchen from "./Kitchen";
 import Bath from "./Bath";
 import LivingRoom from "./LivingRoom";
 
-const FloorPlan = (props) => {
+const FloorPlan = () => {
   return (
     <>
-      <div class="grid-container" id="floorplan">
-        <div class="grid-item" id="bedroomOne">
+      <div className="grid-container" id="floorplan">
+        <div className="grid-item" id="bedroomOne">
           <Bedroom bedNum={1} />
         </div>
-        <div class="grid-item" id="fullbath">
+        <div className="grid-item" id="fullbath">
           <Bath size={'Full'}/>
         </div>
-        <div class="grid-item"  id="livingroom">
+        <div className="grid-item"  id="livingroom">
           <LivingRoom />
         </div>
-        <div class="grid-item"  id="kitchen">
+        <div className="grid-item"  id="kitchen">
           <Kitchen/>
         </div>
-        <div class="grid-item"  id="halfbath">
+        <div className="grid-item"  id="halfbath">
           <Bath size={'Half'}/>
         </div>
-        <div class="grid-item"  id="bedroomThree">
+        <div className="grid-item"  id="bedroomThree">
           <Bedroom bedNum={3} />
         </div>
-        <div class="grid-item"  id="bedroomTwo">
+        <div className="grid-item"  id="bedroomTwo">
           <Bedroom bedNum={2} />
         </div>
       </div>

@@ -13,6 +13,11 @@ div {
   justify-content: center;
 }
 
+div > *{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
 .grid-container {
   display: grid;
   grid-template-rows: 0.5;
@@ -83,7 +88,7 @@ div {
 #kitchen{
   background-color: #e6aa51;
   width: 100px;
-  height: 300px;
+  height: 100%;
   grid-column-start: 6;
   grid-column-end: 7;
   grid-row-start: 1;
@@ -93,8 +98,15 @@ div {
   border: 0;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
+#kitchen>h3{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
 #halfbath{
   background-color: #76873e;
   height: 200px;
@@ -129,8 +141,8 @@ div {
 #oven{
   justify-self: start;
   background-color: #ba5029;
-  width: 200px;
   height: 40px;
+  width: 100%;
   gap: 0;
   grid-row-start: 1;
   grid-row-end: 2;
@@ -143,8 +155,8 @@ div {
 #sink{
   justify-self: end;
   background-color: #8b5924;
-  width: 200px;
   height: 40px;
+  width: 100%;
   grid-row-start: 1;
   grid-row-end: 2;
   grid-template-rows: 0.5;
@@ -156,7 +168,9 @@ div {
 
 #ovensink{
   display: flex;
+  flex-direction: row;
+  align-items: center;
   border: 0;
   padding: 0;
-  margin: 0;
+  margin-bottom: auto;
 }

@@ -1,4 +1,4 @@
-const LivingRoom = (props) => {
+const LivingRoom = () => {
   return (  
     <>
       <h3>Living Room</h3>

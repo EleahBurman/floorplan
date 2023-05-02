@@ -1,4 +1,4 @@
-const Oven = (props) => {
+const Oven = () => {
   return (  
     <>
       <h3 id="oven">Oven</h3>
