@@ -8,7 +8,7 @@ const FloorPlan = (props) => {
     <>
       <div class="grid-container" id="floorplan">
         <div class="grid-item" id="bedroomOne">
-          <Bedroom bednum={1} />
+          <Bedroom bedNum={1} />
         </div>
         <div class="grid-item" id="fullbath">
           <Bath size={'Full'}/>
@@ -23,10 +23,10 @@ const FloorPlan = (props) => {
           <Bath size={'Half'}/>
         </div>
         <div class="grid-item"  id="bedroomThree">
-          <Bedroom bednum={3} />
+          <Bedroom bedNum={3} />
         </div>
         <div class="grid-item"  id="bedroomTwo">
-          <Bedroom bednum={2} />
+          <Bedroom bedNum={2} />
         </div>
       </div>
     </>

@@ -9,6 +9,8 @@ div {
   border: 1px solid grey;
   margin: 5px;
   padding: 5px;
+  text-align: center;
+  justify-content: center;
 }
 
 .grid-container {
@@ -28,6 +30,9 @@ div {
   row-gap: 0;
   grid-template-rows: 0.5;
   gap: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #bedroomTwo {
@@ -40,6 +45,9 @@ div {
   grid-row-end: 7;
   grid-template-rows: 0.5;
   gap: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #bedroomThree {
@@ -52,6 +60,9 @@ div {
   grid-row-end: 7;
   grid-template-rows: 0.5;
   gap: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #livingroom {
@@ -64,40 +75,9 @@ div {
   grid-row-end: 4;
   grid-template-rows: 0.5;
   gap: 0;
-}
-
-#oven{
-  background-color: #ba5029;
-  width: 50px;
-  height: 20px;
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-template-rows: 0.5;
-  gap: 0;
-}
-
-.floatleft{
-  float: left;
-  margin-bottom: 20px;
-}
-
-.floatright{
-  float: right;
-  margin-bottom: 20%;
-}
-#sink{
-  background-color: #8b5924;
-  width: 50px;
-  height: 20px;
-  grid-column-start: 7;
-  grid-column-end: 8;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-template-rows: 0.5;
-  gap: 0;
-  float: right;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #kitchen{
@@ -110,6 +90,9 @@ div {
   grid-row-end: 4;
   grid-template-rows: 0.5;
   gap: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #halfbath{
@@ -122,6 +105,9 @@ div {
   grid-row-end: 7;
   grid-template-rows: 0.5;
   gap: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #fullbath{
@@ -135,6 +121,42 @@ div {
   row-gap: 0;
   grid-template-rows: 0.5;
   gap: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
+#oven{
+  justify-self: start;
+  background-color: #ba5029;
+  width: 200px;
+  height: 40px;
+  gap: 0;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-template-rows: 0.5;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
 
+#sink{
+  justify-self: end;
+  background-color: #8b5924;
+  width: 200px;
+  height: 40px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-template-rows: 0.5;
+  gap: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#ovensink{
+  display: flex;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
